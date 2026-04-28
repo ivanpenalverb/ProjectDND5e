@@ -4,7 +4,7 @@ import { useCharacterStore, CharacterFeature } from '@/store/useCharacterStore';
 import { AvatarCropModal } from './AvatarCropModal';
 import { getClassProgression } from '@/utils/classProgression';
 import { exportCharacterToJSON } from '@/services/fileService';
-import { dataService } from '@/services/dataService';
+import { dataService, Spell, InventoryItem, Monster } from '@/services/dataService';
 import { ChevronRight, ChevronLeft, Upload, User, Wand2, Shield, Beaker, Dices, Loader2, X } from 'lucide-react';
 
 interface WizardProps {
@@ -171,17 +171,17 @@ export const CharacterCreatorWizard = ({ isOpen, onClose }: WizardProps) => {
       level,
       abilityScores,
       avatarUrl: avatarData || undefined,
-      knownSpells: [],
-      inventory: [],
-      monsters: [],
-      features: [],
+      knownSpells: [] as Spell[],
+      inventory: [] as InventoryItem[],
+      monsters: [] as (Monster & { pinned: boolean })[],
+      features: [] as CharacterFeature[],
       maxHp: 10 + Math.floor((abilityScores.CON - 10) / 2),
       currentHp: 10 + Math.floor((abilityScores.CON - 10) / 2),
       hitDice: { current: level, max: level, face: 10 },
       maxSpellSlots: progression.maxSpellSlots,
       currentSpellSlots: [...progression.maxSpellSlots],
       pactSlots: progression.pactSlots ? { ...progression.pactSlots, current: progression.pactSlots.max } : undefined,
-      proficiencies: [],
+      proficiencies: [] as string[],
       sessionNotes: '',
       backstory: '',
       allies: '',
