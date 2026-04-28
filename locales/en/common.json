@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "new": "New",
+    "export": "Export",
+    "import": "Import",
+    "load": "Load",
+    "language": "Language",
+    "noCharacters": "No characters yet",
+    "help": "Help",
+    "templates": "Templates",
+    "background": "Background"
+  },
+  "tabs": {
+    "stats": "Stats",
+    "actions": "Actions",
+    "inventory": "Inventory",
+    "spells": "Spells",
+    "notes": "Notes",
+    "history": "History",
+    "roll": "Roll"
+  },
+  "stats": {
+    "str": "STR",
+    "dex": "DEX",
+    "con": "CON",
+    "int": "INT",
+    "wis": "WIS",
+    "cha": "CHA",
+    "ac": "AC",
+    "speed": "Speed",
+    "initiative": "Initiative",
+    "proficiency": "Proficiency",
+    "hitPoints": "Hit Points",
+    "maxHp": "Max HP",
+    "currentHp": "Current HP",
+    "hitDice": "Hit Dice"
+  },
+  "actions": {
+    "shortRest": "Short Rest",
+    "longRest": "Long Rest",
+    "rollInitiative": "Roll Initiative",
+    "restoration": "Restoration",
+    "spendHitDice": "Spend Hit Dice",
+    "spend": "Spend",
+    "heal": "Heal",
+    "rest": "Rest",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "bestiary": {
+    "title": "Bestiary Pins",
+    "search": "Search a monster...",
+    "empty": "No active threats pinned.\nSearch the SRD and pin monsters to keep their statblocks here.",
+    "pin": "Pin",
+    "actions": "Actions"
+  },
+  "notes": {
+    "title": "Campaign Details",
+    "placeholder": "The tale begins here. Jot down npc names, plot hooks, and legendary moments..."
+  }
+}

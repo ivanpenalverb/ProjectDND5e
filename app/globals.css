@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-zinc-950: var(--bg-950);
+  --color-zinc-900: var(--bg-900);
+  --color-zinc-800: var(--bg-800);
+  --color-zinc-700: var(--bg-700);
+  --color-zinc-600: var(--bg-600);
+  --color-zinc-500: var(--bg-500);
+  --color-zinc-400: var(--text-400);
+  --color-zinc-300: var(--text-300);
+  --color-zinc-200: var(--text-200);
+  --color-zinc-100: var(--text-100);
+  
+  --color-accent-garnet: var(--accent-garnet);
+  --color-accent-gold: var(--accent-gold);
+}
+
+@layer base {
+  :root, .theme-obsidian {
+    --bg-950: #09090b;
+    --bg-900: #18181b;
+    --bg-800: #27272a;
+    --bg-700: #3f3f46;
+    --bg-600: #52525b;
+    --bg-500: #71717a;
+    --text-400: #a1a1aa;
+    --text-300: #d4d4d8;
+    --text-200: #e4e4e7;
+    --text-100: #f4f4f5;
+    --accent-garnet: #800020;
+    --accent-gold: #b8860b;
+  }
+
+  .theme-parchment {
+    /* Inverted/Sepia theme */
+    --bg-950: #fdf6e3;
+    --bg-900: #f4e8d1;
+    --bg-800: #eaddc0;
+    --bg-700: #d6bfa2;
+    --bg-600: #b59b7b;
+    --bg-500: #a38968;
+    --text-400: #8b7355;
+    --text-300: #5c4b37;
+    --text-200: #4a3c31;
+    --text-100: #2b221a;
+    --accent-garnet: #9b2c2c;
+    --accent-gold: #8b5a2b;
+  }
+
+  .theme-arcane {
+    /* Dark Blue/Purple theme */
+    --bg-950: #05051a;
+    --bg-900: #0f1033;
+    --bg-800: #1b1b4d;
+    --bg-700: #2a2a70;
+    --bg-600: #3c3c99;
+    --bg-500: #5555c2;
+    --text-400: #8c8cde;
+    --text-300: #b3b3ff;
+    --text-200: #e0e0ff;
+    --text-100: #ffffff;
+    --accent-garnet: #8a2be2;
+    --accent-gold: #c0c0c0;
+  }
+
+  body {
+    background-color: var(--bg-950);
+    color: var(--text-200);
+    @apply antialiased min-h-screen text-sm md:text-base;
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "new": "Nuevo",
+    "export": "Exportar",
+    "import": "Importar",
+    "load": "Cargar",
+    "language": "Idioma",
+    "noCharacters": "Sin personajes",
+    "help": "Ayuda",
+    "templates": "Plantillas",
+    "background": "Fondo"
+  },
+  "tabs": {
+    "stats": "Estadísticas",
+    "actions": "Acciones",
+    "inventory": "Inventario",
+    "spells": "Hechizos",
+    "notes": "Notas",
+    "history": "Historial",
+    "roll": "Tirar"
+  },
+  "stats": {
+    "str": "FUE",
+    "dex": "DES",
+    "con": "CON",
+    "int": "INT",
+    "wis": "SAB",
+    "cha": "CAR",
+    "ac": "CA",
+    "speed": "Velocidad",
+    "initiative": "Iniciativa",
+    "proficiency": "Competencia",
+    "hitPoints": "Puntos de Golpe",
+    "maxHp": "PG Máximos",
+    "currentHp": "PG Actuales",
+    "hitDice": "Dados de Golpe"
+  },
+  "actions": {
+    "shortRest": "Descanso Corto",
+    "longRest": "Descanso Largo",
+    "rollInitiative": "Tirar Iniciativa",
+    "restoration": "Restauración",
+    "spendHitDice": "Gastar Dados de Golpe",
+    "spend": "Gastar",
+    "heal": "Curar",
+    "rest": "Descansar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar"
+  },
+  "bestiary": {
+    "title": "Bestiario Anclado",
+    "search": "Buscar un monstruo...",
+    "empty": "No hay amenazas ancladas.\nBusca y ancla monstruos del SRD para tener sus estadísticas aquí.",
+    "pin": "Anclar",
+    "actions": "Acciones"
+  },
+  "notes": {
+    "title": "Detalles de Campaña",
+    "placeholder": "La historia comienza aquí. Anota nombres de pnj, eventos y momentos legendarios..."
+  }
+}
